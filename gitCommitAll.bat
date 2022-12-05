@@ -1,14 +1,12 @@
 git add *
 
-echo "Enter commit message:"
-read commitMessage
+set /p "message=Enter commit message: "
 
-git commit -m $commitMessage
+git commit -m "%message%"
 
-echo "Push to main? (type 'yes')"
-read confirmation
+set /p "confirmation=Push to main? (type 'yes') "
 
-if [$confirmation = "yes"]
+if [%confirmation% = "yes"]
 then
     git push
 fi
