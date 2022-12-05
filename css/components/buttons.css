@@ -1,0 +1,33 @@
+.button-rounded {
+    border: 1px solid;
+    border-radius: 30%;
+    padding: 5px;
+}
+
+.button-round {
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.button-white {
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+
+.button-white:hover {
+    color: black;
+    background-color: lightslategray;
+}
+
+.button-black {
+    border-color: white;
+    color: white;
+    background-color: black;
+}
+
+.button-black:hover {
+    color: white;
+    background-color: rgb(65, 63, 63);
+}

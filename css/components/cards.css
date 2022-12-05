@@ -1,0 +1,66 @@
+/* #region  Product Card */
+.card-product {
+    padding: 10px;
+    width: 900px;
+    height: 300px;
+    display: flex;
+}
+
+.card-product img{
+    aspect-ratio: 1 / 1;
+    border-radius: 10%;
+    height: 300px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.card-product div{
+    background-color: white;
+    border: 1px solid black;
+    width: 1000px;
+    margin-left: -100px;
+    height: 298px;
+    padding: 0;
+    align-items: flex-end;
+}
+
+.card-product p{
+    padding: 10px;
+    margin: 0;
+    margin-left: 100px;
+    display: flex;
+    height: 75%;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.card-product h2 {
+    margin: 10px;
+    margin-left: 100px;
+    text-align: center;
+    padding-top: 0;
+}
+/* #endregion */
+
+/* #region Title Card */
+
+.card-title {
+    background-size: cover;
+    background-position: center;
+    /* Linear gradient to make the image a bit darker so the text stands out */
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(50,50,50,0.3)), url("../../images/monika.jpg"); 
+    height: 180px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    border-radius: 20px;
+  }
+
+/* #endregion */
+

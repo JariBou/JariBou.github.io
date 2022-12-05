@@ -1,0 +1,14 @@
+@import url(components/buttons.css);
+@import url(components/avatars.css);
+@import url(components/cards.css);
+@import url(components/navbars.css);
+@import url(components/footers.css);
+
+
+body {
+    background-color: beige;
+}
+
+a {
+    text-decoration: none;
+}

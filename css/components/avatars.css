@@ -1,0 +1,20 @@
+.avatar {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.avatar-small {
+    width: 100px;
+    height: 100px;
+}
+
+.avatar-regular {
+    width: 200px;
+    height: 200px;
+}
+
+.avatar-big {
+    width: 400px;
+    height: 400px;
+}

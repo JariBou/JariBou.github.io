@@ -1,0 +1,28 @@
+.footer {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 2px 40px;
+    color: black;
+    width: 95%;
+    margin: auto;
+}
+.footer-element {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-element a {
+    color: black;
+    opacity: 0.7;
+    font-size: 24px;
+    padding: 0px 10px;
+}
+.footer-element a:hover {
+    opacity: 1;
+    background-color: grey;
+    border-radius: 50%;
+}

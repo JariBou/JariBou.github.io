@@ -1,0 +1,41 @@
+.sticky-header {
+    width: auto;
+    margin: auto;
+    padding: 10px 16px;
+    position: sticky;
+    text-align: center;
+    top: 0;
+    background: white;
+    z-index: 50;
+}
+
+.flex-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 0 20%;
+    align-items: center;
+}
+
+.sticky-nav-item {
+    padding: 15px;
+    height: 100;
+    font-size: medium;
+    border: 1px grey;
+    border-radius: 10%;
+    font-size: x-large;
+}
+
+
+.sticky-nav-item:hover{
+    background-color: lightgrey;
+}
+
+.sticky-nav-item a, a:visited{
+    color:black;
+}
+
+
+.sticky-header + section {
+    margin-top: 10px
+}
