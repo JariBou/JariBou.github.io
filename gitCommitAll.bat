@@ -7,9 +7,13 @@ git commit -m "%message%"
 
 set /p "confirmation=Push to main? (type 'yes') "
 
-if %confirmation%=="yes" git push
+if %confirmation%=="yes" (
+    git push
+    echo "Successfully pushed to main"
+) else (
+    echo "Successfully canceled push to main"
+)
 
-echo "Successfully pushed to main"
 
 pause
 
