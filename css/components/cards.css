@@ -46,10 +46,13 @@
 /* #region Title Card */
 
 .card-title {
+    --img-path: url("../../images/monika.jpg");
+
     background-size: cover;
     background-position: center;
+
     /* Linear gradient to make the image a bit darker so the text stands out */
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(50,50,50,0.3)), url("../../images/monika.jpg"); 
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(50,50,50,0.3)), var(--img-path); 
     height: 180px;
     width: 60%;
     margin: auto;

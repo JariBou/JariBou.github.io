@@ -1,0 +1,25 @@
+/* Basically a Title card but with different size and support for paragraphs */
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(50,50,50,0.3)), url(../../images/banner1.jpg); 
+
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+  }
+  
+  .banner h1 {
+    margin: 0 10% 5px 10%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .banner p {
+    margin: 5px 10% 0px 10%;
+
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+  }
