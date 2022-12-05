@@ -1,3 +1,4 @@
+@echo off
 git add *
 
 set /p "message=Enter commit message: "
