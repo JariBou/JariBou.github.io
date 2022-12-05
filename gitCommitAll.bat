@@ -11,3 +11,6 @@ then
     git push
 fi
 
+echo "Successfully pushed to main"
+pause
+
