@@ -1,0 +1,10 @@
+/* Not sure what this is supposed to be but ok.. */
+
+.container-center-items {
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    text-align: start;
+}
