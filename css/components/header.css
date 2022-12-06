@@ -1,0 +1,37 @@
+.header-nav {
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding: 0;
+    text-align: end;
+    align-items: center;
+}
+
+.header-nav li{
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.header-nav-item {
+    color: black;
+    padding: 10px;
+    height: 100;
+    font-size: medium;
+    border: 1px grey;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.header-nav-item:hover{
+    background-color: lightgrey;
+}
+
+.header-nav-item a, a:visited{
+    color:black;
+}
+
+.name {
+    display: grid;
+    align-content: center;
+}

@@ -1,36 +1,47 @@
 /* #region  Product Card */
 .card-product {
-    padding: 10px;
+    padding: 0px;
     width: 900px;
     height: 300px;
     display: flex;
+    background-color: white;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-product .container{
+    width: 100%;
 }
 
 .card-product img{
     aspect-ratio: 1 / 1;
-    border-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
     height: 300px;
     object-fit: cover;
-    z-index: 1;
 }
 
 .card-product div{
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 20px;
-    width: 1000px;
-    margin-left: -100px;
+    
+    margin: auto;
     height: 298px;
     padding: 0;
     align-items: flex-end;
 }
 
+.card-product .button-div {
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
 .card-product p{
     padding: 10px;
     margin: 0;
-    margin-left: 100px;
     display: flex;
-    height: 75%;
+    height: 60%;
     align-items:center;
     justify-content:center;
 }
@@ -38,7 +49,6 @@
 
 .card-product h2 {
     margin: 10px;
-    margin-left: 100px;
     text-align: center;
     padding-top: 0;
 }
@@ -47,7 +57,7 @@
 /* #region Title Card */
 
 .card-title {
-    --img-path: url("../../images/monika.jpg");
+    --img-path: url("../../images/CardTitleBG.jpg");
 
     background-size: cover;
     background-position: center;
@@ -57,6 +67,8 @@
     height: 180px;
     width: 60%;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
