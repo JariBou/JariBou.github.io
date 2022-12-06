@@ -8,7 +8,7 @@
 
 .card-product img{
     aspect-ratio: 1 / 1;
-    border-radius: 10%;
+    border-radius: 20px;
     height: 300px;
     object-fit: cover;
     z-index: 1;
@@ -17,6 +17,7 @@
 .card-product div{
     background-color: white;
     border: 1px solid black;
+    border-radius: 20px;
     width: 1000px;
     margin-left: -100px;
     height: 298px;
@@ -52,7 +53,7 @@
     background-position: center;
 
     /* Linear gradient to make the image a bit darker so the text stands out */
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(50,50,50,0.3)), var(--img-path); 
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(50,50,50,0.3)), var(--img-path); 
     height: 180px;
     width: 60%;
     margin: auto;
@@ -63,6 +64,7 @@
     font-size: 48px;
     font-weight: bold;
     border-radius: 20px;
+    text-shadow: 2px 2px 2px black;
   }
 
 /* #endregion */

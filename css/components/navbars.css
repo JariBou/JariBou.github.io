@@ -17,7 +17,16 @@
     align-items: center;
 }
 
+.flex-nav li{
+    list-style: none;
+}
+
 .sticky-nav-item {
+    background-color: rgb(243, 243, 243);
+
+    font-family: 'Zen Dots', cursive;
+
+    color: black;
     padding: 15px;
     height: 100;
     font-size: medium;
