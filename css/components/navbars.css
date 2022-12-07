@@ -26,7 +26,7 @@
 
     font-family: 'Zen Dots', cursive;
 
-    color: black;
+    color: white;
     padding: 15px;
     height: 100;
     font-size: medium;
@@ -40,8 +40,12 @@
     background-color: lightgrey;
 }
 
-.sticky-nav-item a, a:visited{
+.sticky-nav-item {
     color:black;
+}
+
+.sticky-nav-item:visited {
+    color: black;
 }
 
 

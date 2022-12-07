@@ -27,11 +27,17 @@
     background-color: lightgrey;
 }
 
-.header-nav-item a, a:visited{
-    color:black;
+.header-nav-item {
+    color:white;
+}
+
+.header-nav-item:visited {
+    color: white;
 }
 
 .name {
+    padding: 10px;
+    color: white;
     display: grid;
     align-content: center;
 }

@@ -17,8 +17,8 @@
 }
 
 .button-white:hover {
-    color: black;
-    background-color: lightslategray;
+    color: white;
+    background-color: rgb(104, 108, 112);
 }
 
 .button-black {

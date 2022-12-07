@@ -1,7 +1,9 @@
 /* Basically a Title card but with different size and support for paragraphs */
 
 .banner {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(50,50,50,0.3)), url(../../images/banner1.jpg); 
+    --img-path: url(../../images/banner1.jpg);
+
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(50,50,50,0.3)), var(--img-path); 
 
     background-size: cover;
     background-position: center;
@@ -14,7 +16,7 @@
     text-shadow: 2px 2px 2px black;
     font-size: 32px;
     font-weight: bold;
-  }
+}
   
   .banner p {
     margin: 5px 10% 0px 10%;
@@ -22,4 +24,4 @@
     font-size: 20px;
     color: white;
     text-shadow: 2px 2px 2px black;
-  }
+}

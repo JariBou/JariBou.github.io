@@ -84,7 +84,49 @@
 
 /* #region Product Card Large */
 
+.card-product-large {
+    margin: auto;
 
+    background-color: white;
+
+    border: 1px solid black;
+    border-radius: 20px;
+
+    width: 400px;
+    height: 400px;
+}
+
+.card-product-large .img-container{
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 0px;
+    --img-path: url(../../images/CardTitleBG.jpg);
+
+    background-image: var(--img-path);
+    background-size: cover;    
+}
+
+.card-product-large .container{
+    padding: 10px;
+    justify-content: space-between;
+    margin: auto;
+    width: 95%;
+    height: 25%;
+}
+
+.card-product-large h1 {
+    margin: auto;
+}
+
+.card-product-large p {
+    margin: auto;
+    font-size: small;
+}
+
+.card-product-large .button-round {
+    width: auto;
+}
 
 
 
