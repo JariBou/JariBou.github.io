@@ -1,3 +1,12 @@
+@keyframes slideIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+
 .sticky-header {
     width: auto;
     margin: auto;
@@ -19,6 +28,7 @@
 
 .flex-nav li{
     list-style: none;
+    animation: slideIn 3s ease;
 }
 
 .sticky-nav-item {

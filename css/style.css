@@ -6,19 +6,29 @@
 @import url(components/banners.css);
 @import url(components/containers.css);
 @import url(components/header.css);
+@import url(components/scrollbar.css);
 
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;300;500;700;900&family=Zen+Dots&display=swap'); 
 
+section {
+    margin-bottom: 15vw;
+}
+
+html{
+    scroll-behavior:smooth;
+}
 
 body {
     background-color: rgb(32, 31, 31);
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;    
 }
+
+
 
 a {
     text-decoration: none;
@@ -29,4 +39,18 @@ a {
     position: relative;
     top: -50px;
     visibility: hidden;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translate(0px, 200px);
+        opacity: 0.2;
+    } to {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}
+
+.anim-on-view {
+    animation: slideUp 3s;
 }

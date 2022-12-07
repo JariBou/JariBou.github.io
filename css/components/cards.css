@@ -1,3 +1,5 @@
+
+
 /* #region  Product Card */
 .card-product {
     padding: 0px;
@@ -93,7 +95,7 @@
     border-radius: 20px;
 
     width: 400px;
-    height: 400px;
+    height: 500px;
 }
 
 .card-product-large .img-container{

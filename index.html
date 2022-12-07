@@ -7,15 +7,16 @@
 
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/dae033fb8d.js" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
 
     <title>JariBou Portofolio</title>
 </head>
 <body>
 
-    <header class="container flex-container">
+    <header class="container flex-container header-container">
         <div class="container flex-container">
             <img src="images/photo linkedin.jpg" alt="" class="avatar avatar-small">
-            <h1 class="name">Tomé Bourdié</h1>
+            <h1 class="name">Tomé BOURDIÉ</h1>
         </div>
         <ul class="header-nav">
             <li><a href="#" class="header-nav-item">Click me!</a></li>
@@ -27,7 +28,7 @@
     <nav class="sticky-header">
         <ul class="flex-nav">
             <li><a href="#MyCreationsAnchor" class="sticky-nav-item">Click me!</a></li>
-            <li><a href="#" class="sticky-nav-item">No me!</a></li>
+            <li><a href="#OnGoingAnchor" class="sticky-nav-item">No me!</a></li>
             <li><a href="#" class="sticky-nav-item">Am I a joke to you?</a></li>
         </ul>
     </nav>
@@ -41,32 +42,32 @@
             My Creations
         </div>
 
-        <div class="card-product">
-                <img src="images/AppIcon.png" alt="">
+        <div id="test1" class="card-product">
+            <img src="images/logoPyPi.svg" alt="">
             <div class="container">
-                <h2>Title</h2>
+                <h2>PySimpleProperties</h2>
                 <p>Paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eius hic impedit voluptatum earum, sint iste vero rerum dolorum quas odio ab necessitatibus nobis, nemo nulla laudantium deleniti similique atque?</p>
 
                 <div class="button-div">
-                    <button class="button-rounded button-black" >Check me out!</button>
+                    <button class="button-rounded button-black" onclick="location.href='https://pypi.org/project/PySimpleProperties/'">Check me out!</button>
                 </div>
             </div>
         </div>
 
         <div class="card-product">
-            <img src="images/AppIcon.png" alt="">
+                <img src="images/AppIcon.png" alt="">
             <div class="container">
-                <h2>Title</h2>
+                <h2>My Daily Notes</h2>
                 <p>Paragraph: Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eius hic impedit voluptatum earum, sint iste vero rerum dolorum quas odio ab necessitatibus nobis, nemo nulla laudantium deleniti similique atque?</p>
 
                 <div class="button-div">
-                    <button class="button-rounded button-black" >Check me out!</button>
+                    <button class="button-rounded button-black" onclick="location.href='https://jaribou.github.io/my_daily_notes/'">Check me out!</button>
                 </div>
             </div>
         </div>
 
     </section>
-
+    
 
     <section id="OnGoing">
 
@@ -78,14 +79,14 @@
 
         <div class="container grid-container">
             <div class="card-product-large">
-                <div class="img-container" style="--img-path:url('../../images/CardTitleBG-gears.jpg');"></div>
+                <div class="img-container" style="--img-path:url('../../images/AppIcon.png');"></div>
                 <div class="container flex-container" style="align-items:center">
                     <div>
-                        <h1>Title</h1>
+                        <h1>My Daily Notes</h1>
                         <p>Short Desdcription: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis atque sint ab illum ducimus numquam maiores nobis </p>
                     </div>
                     <div>
-                        <button class="button-round button-black"><i class="fa-brands fa-github fa-2xl"></i></button>
+                        <button class="button-round button-black" onclick="location.href='https://github.com/JariBou/my_daily_notes'"><i class="fa-brands fa-github fa-2xl"></i></button>
                     </div>
                 </div>
             </div>
@@ -120,26 +121,23 @@
     </section>
     
 
-        <section id="Footer">
-            <div class="footer">
-                    <div class="footer-element">
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <a href="#">4</a>
-                        <a href="#">5</a>
-                    </div>
-                    <div class="footer-element">
-                        <a href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <a href="#">4</a>
-                        <a href="#">5</a>
-                    </div>
-              </div>
-        </section>
+    <div class="footer">
+        <div class="footer-element">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+        </div>
+        <div class="footer-element">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+        </div>
+    </div>
 
-    </section>
 
 
 
