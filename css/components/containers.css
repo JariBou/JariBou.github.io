@@ -1,5 +1,3 @@
-/* Not sure what this is supposed to be but ok.. */
-
 .container-center-items {
     align-items: center;
     text-align: center;
@@ -18,7 +16,21 @@
 }
 
 .grid-container {
+    margin: auto;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 1400px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    .grid-container {
+        display: block;
+    }
 }
