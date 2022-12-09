@@ -26,6 +26,9 @@
     border: 1px grey;
     border-radius: 10px;
     font-size: x-large;
+
+    transition: 1s linear ;
+
 }
 
 .header-nav-item:hover{

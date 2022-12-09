@@ -1,18 +1,19 @@
-@import url(components/buttons.css);
-@import url(components/avatars.css);
-@import url(components/cards.css);
-@import url(components/navbars.css);
-@import url(components/footers.css);
-@import url(components/banners.css);
-@import url(components/containers.css);
-@import url(components/header.css);
-@import url(components/scrollbar.css);
+@import url(../components/buttons.css);
+@import url(../components/avatars.css);
+@import url(../components/cards.css);
+@import url(../components/navbars.css);
+@import url(../components/footers.css);
+@import url(../components/banners.css);
+@import url(../components/containers.css);
+@import url(../components/header.css);
+@import url(../components/scrollbar.css);
 
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100;300;500;700;900&family=Zen+Dots&display=swap'); 
+
 
 section {
     margin-bottom: 15vw;
@@ -23,12 +24,10 @@ html{
 }
 
 body {
-    background-color: rgb(32, 31, 31);
+    background-color: rgb(32, 31, 31) !important;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;    
 }
-
-
 
 a {
     text-decoration: none;

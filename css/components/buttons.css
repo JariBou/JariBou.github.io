@@ -1,4 +1,5 @@
 .button-rounded {
+    cursor: pointer;
     border: 1px solid;
     border-radius: 20px;
     padding: 5px;
@@ -6,6 +7,7 @@
 }
 
 .button-round {
+    cursor: pointer;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     padding: 10px;
@@ -20,6 +22,17 @@
 .button-white:hover {
     color: white;
     background-color: rgb(104, 108, 112);
+
+    animation: zoom 3s linear reverse paused;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(100%, 100%);
+    } to {
+        transform: scale(120%, 120%);
+
+    }
 }
 
 .button-black {
@@ -31,4 +44,6 @@
 .button-black:hover {
     color: white;
     background-color: rgb(65, 63, 63);
+    animation: zoom 3s linear reverse paused;
+
 }
