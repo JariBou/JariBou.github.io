@@ -16,7 +16,8 @@
 
 
 section {
-    margin-bottom: 15vw;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
 }
 
 html{
@@ -40,16 +41,3 @@ a {
     visibility: hidden;
 }
 
-@keyframes slideUp {
-    from {
-        transform: translate(0px, 200px);
-        opacity: 0.2;
-    } to {
-        transform: translate(0px, 0px);
-        opacity: 1;
-    }
-}
-
-.anim-on-view {
-    animation: slideUp 3s;
-}

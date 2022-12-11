@@ -33,7 +33,7 @@
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 950px) {
     .grid-container {
         display: block;
     }
