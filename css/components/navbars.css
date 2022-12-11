@@ -62,3 +62,22 @@
 .sticky-header + section {
     margin-top: 10px
 }
+
+@media (max-width: 1200px) {
+    .sticky-nav-item {
+        font-size: small;
+    }
+    .flex-nav {
+        padding: 0% 10%;
+    }
+}
+
+@media (max-width: 700px) {
+    .sticky-nav-item {
+        font-size: x-small;
+
+    }
+    .flex-nav {
+        padding: 0% 5%;
+    }
+}

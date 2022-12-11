@@ -54,6 +54,22 @@
     text-align: center;
     padding-top: 0;
 }
+
+@media (max-width: 1400px) {
+    .card-product {
+        width: 700px;
+    }
+}
+
+@media (max-width: 700px) {
+    .card-product {
+        width: 500px;
+    }
+
+    .card-product img{
+        height: 150px;
+    }
+}
 /* #endregion */
 
 /* #region Title Card */
